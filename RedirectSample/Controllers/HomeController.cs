@@ -49,7 +49,7 @@ namespace RedirectSample.Controllers
 
             HttpContext.Response.Cookies.Set(languageCookie);
 
-            return RedirectPermanent(redirectUrl);
+            return Redirect(redirectUrl);
         }
 
 
